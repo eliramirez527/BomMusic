@@ -1,0 +1,33 @@
+.contenedor-plan {
+  border-radius: 25px; 
+  padding: 40px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #131313; 
+  text-align: center; 
+  margin: 20px;    
+}
+
+.texto-plan {
+  font-size: 1.2rem; 
+  color: rgb(208, 194, 194); 
+  margin-bottom: 15px; 
+}
+
+.boton-plan {
+  background-color: #fc5500; 
+  color: white;  
+  border: none; 
+  border-radius: 25px;
+  padding: 10px 20px; 
+  font-size: 1rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.boton-plan:hover {
+  background-color: #2c2c2c; 
+}
+
+
+
+

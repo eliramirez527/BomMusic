@@ -1,0 +1,203 @@
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; /* Altura mínima de la pantalla visible */
+    margin-top: 0;
+}
+
+body{
+    background-color: #131313;
+}
+
+.formulario {    
+    width: 100%; 
+    width: 600px; 
+    padding: 20px 130px; 
+    font-size: 15px; 
+    background-color: #545454; 
+    border-radius: 25px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.formulario input,
+.formulario button {
+    width: calc(80% - 20px);
+    margin-bottom: 15px; 
+    padding: 10px; 
+    border-radius: 20px; 
+    border: 1px solid #282828; 
+    color: #fff; 
+}
+
+.formulario button {
+    background-color: #fc5500; 
+    color: #fff; 
+    cursor: pointer; 
+}
+
+.formulario button  {
+    width: calc(60% - 20px); 
+    padding: 8px; 
+    border-radius: 20px; 
+    border: 1px solid #282828; 
+    background-color: #fc5500; 
+    color: #fff; 
+    cursor: pointer; 
+    font-size: 15px; 
+}
+
+.formulario input,.password-input[type="file"] {
+    width: auto; 
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+label {
+    display: block; 
+    text-align: left; 
+    margin-bottom: 15px; 
+}
+
+.formulario h2 {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+.error-text {
+    color: red; 
+    margin-top: 10px; 
+}
+
+.container
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5px auto; 
+    
+}
+
+.NombreColor {
+    background-color: #282828;
+    font-family: 'Open Sans';
+    font-weight: bold;     
+}
+
+.ApellidoColor {
+    background-color: #282828;
+    font-family: 'Open Sans'; 
+    font-weight: bold;  
+}
+
+.TelefonoColor {
+    background-color: #282828;
+    font-family: 'Open Sans';
+    font-weight: bold;   
+}
+
+.EmailColor {
+    background-color: #282828;
+    font-family: 'Open Sans';
+    font-weight: bold;   
+}
+
+.ContraseñaColor {
+    background-color: #282828;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.ConfirmarColor {
+    background-color: #282828;
+    font-family: 'Open Sans';
+    font-weight: bold;   
+}
+
+.enlace-iniciar-sesion {
+    color: #fff; /* Color del texto en blanco */
+    text-decoration: none; /* Sin subrayado */
+    margin-top: 15px; /* Espacio superior */
+    font-size: 14px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    cursor: pointer; /* Cursor de puntero */
+}
+
+.colorInicio {
+    color: #fff; /* Color del texto en blanco */
+}
+
+.botones-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-imagen{
+    width: 100px; /* Ancho deseado */
+    height: 80px; /* Altura deseada */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.estilo-profile {
+    width: 80px; /* Ancho deseado */
+    height: 80px; /* Altura deseada */
+    margin-bottom: 15px; /* Espacio inferior */
+}
+
+.NombreColor,
+.ApellidoColor {
+    width: calc(40% - 10px); /* Reducir el ancho al 40% del contenedor */
+    margin-right: 10px; /* Margen derecho entre los campos */
+    font-size: 15px;  
+}
+.botones-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones-registro button {
+    margin-top: 15px;
+    padding: 10px 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.botones-registro button:first-child {
+    background-color: #282828; 
+    color: white;
+}
+
+.botones-registro button:nth-child(2) {
+    background-color:  #282828; 
+    color: white;    
+
+}
+
+.botones-registro button:nth-child(3) {
+    background-color:  #282828; 
+    color: white;
+}
+.TelefonoColor {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    box-sizing: border-box; 
+}
+.linea{
+    color: white;
+    text-align: center;
+}
+.titulo-registrate {
+    text-align: center;
+    color: white;
+    margin-top: -25px; 
+}

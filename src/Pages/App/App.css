@@ -1,0 +1,103 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #fc5500;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbg {
+  background-color: #2c2c2c;
+  height: 15%;
+  width: 75;
+}
+
+.small-logo-img {
+  width: 160px;
+  height: auto;
+  position: absolute;
+  top: -25px; 
+  left: 0;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+
+.bom-music {
+  margin-top: 40px;
+  margin-left: -50px;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: larger;
+  padding: 80px;
+}
+
+/* Media query for small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .bom-music {
+    margin-left: -17px;
+    padding: 35px;
+    font-size: medium;
+  }
+}
+
+/* Media query for medium devices (tablets, 600px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .bom-music {
+    margin-left: -120px;
+    padding: 40px;
+    font-size: large;
+  }
+}
+
+/* Media query for large devices (desktops, 1025px and up) */
+@media (min-width: 1025px) {
+  .bom-music {
+    margin-left: -25px;
+    padding: 80px;
+    font-size: larger;
+  }
+}
+
+
+.nav-link {
+  margin-top: 20px;
+
+}
+.Aplicacion-Nabvar{
+  min-height: 200px;
+  display: flex  
+  }
+ 
+
+

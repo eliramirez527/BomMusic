@@ -1,0 +1,109 @@
+.back-home {
+  position: relative;
+  cursor: pointer;
+  background-color:#131313;
+  padding: 5px;
+  border-radius: 50%;     
+  transition: transform 0.3s ease;    
+  right: 330px; 
+  top: -5px;
+}
+
+.back-home:hover {
+  color: #2c2c2c;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;  /* Ajusta el tamaño según tus necesidades */
+  height: 48px; /* Ajusta el tamaño según tus necesidades */
+  border-radius: 50%;
+  background-color: #fc5500; /* Color de fondo del círculo externo */
+}
+
+.icon-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;  /* Ajusta el tamaño según tus necesidades */
+  height: 32px; /* Ajusta el tamaño según tus necesidades */
+  border-radius: 50%;
+  background-color: #fc5500;
+  color: white; 
+}
+.custom-card {
+  margin-bottom: 20px;
+  width: 250px; 
+  left: 95px;
+}
+
+.custom-card img {
+  height: auto;
+  object-fit: cover;
+}
+
+.custom-card-body {
+  padding: 10px;
+}
+
+.custom-card-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.custom-card-text {
+  font-size: 14px;
+  margin-bottom: -5px;
+}
+
+.audio-controls {
+  width: 100%;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; 
+  flex-wrap: wrap; 
+}
+
+.search-input {
+  margin-bottom: 40px;
+  margin-top: -125px;
+  margin-left: 350px;
+  width: 40%;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 35%;
+  background-color: #2c2c2c;
+}
+
+.search-field {
+  font-weight: bold;
+  background-color: #2c2c2c;
+  border-radius: 35%;  
+  border: none; 
+}
+
+.search-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-input {
+  margin: 20px 0;
+}
+
+.search-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+

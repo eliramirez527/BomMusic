@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  padding: 1px;
+  margin-top: -65px;
+}
+
+.titulo-suscripciones {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .titulo-suscripciones {
+    font-size: 2.5rem; /* Ajustado para dispositivos móviles */
+  }
+}
+
+.subtitulo-suscripciones {
+  font-size: 1.5rem; 
+  margin-bottom: 2px;
+  color: #fff;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .subtitulo-suscripciones {
+    font-size: 1.1rem; 
+    text-align: center; 
+  }
+}
+
+
+.contenedor-externo {
+  border-radius: 25px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 300px;
+  background-color: #2c2c2c;
+}
+
+@media (max-width: 768px) {
+  .contenedor-externo {
+    max-width: 100%; 
+    min-width: auto; 
+    padding: 10px; 
+  }
+}
+
+
+.contenedor-principal {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.plan {
+  flex: 1;
+  max-width: 300px;
+  min-width: 250px;
+}
+
+@media (max-width: 768px) {
+  .contenedor-principal {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan {
+    max-width: none;
+    width: 100%;
+  }
+
+  .suscrip {
+    text-align: center;
+  }
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  position: fixed; 
+  bottom: 100px; 
+  left: 30px; 
+  z-index: 999; 
+}
+
+.back-button:hover {
+  color: #2c2c2c;
+}
+
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;  
+  height: 32px; 
+  border-radius: 50%;
+  background-color: #fc5500; 
+  color: #fff; 
+  margin-right: 8px;
+}
+
+.back-button:hover .icon-circle {
+  background-color: #2c2c2c; 
+}
+
